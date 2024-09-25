@@ -3,10 +3,10 @@ import logo from '../assets/investment-calculator-logo.png';
 
 const Header = () => {
   return (
-    <div id="header">
-      <h1>React Investment Calculator</h1>
+    <header id="header">
       <img src={logo} alt="investments-logo" />
-    </div>
+      <h1>My Investment Calculator</h1>
+    </header>
   )
 }
 
